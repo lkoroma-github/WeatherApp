@@ -10,7 +10,7 @@ class Model{
     }
 
     getLocation(){
-        return document.getElementById("form1").value;
+        return document.getElementById("cityname").value;
     }
 
     convertFromKelvin(temp){
@@ -36,7 +36,7 @@ class Model{
                 console.log(m.convertFromKelvin(temp));
                 console.log(windSpeed);
     
-                let card = `<div class="card" style="width: 18rem;">
+                let card = `<div class="card">
                 <!--<img src="..." class="card-img-top" alt="..."></img>-->
                 <div class="card-body">
                     <h5 class="card-title">${name}</h5>

@@ -6,8 +6,8 @@ class View{
     }
 
     addCity(data, id){
-        console.log(data)
-        document.getElementById(id).insertAdjacentHTML('beforeend', data);
+        //document.getElementById(id).insertAdjacentHTML('beforeend', data);
+        document.getElementById(id).innerHTML = data;
     }
 
 
